@@ -1,0 +1,24 @@
+============================= test session starts ==============================
+platform linux -- Python 3.13.12, pytest-9.0.3, pluggy-1.6.0
+rootdir: /home/aas/aas-assignment2-romulo
+plugins: cov-7.1.0
+collected 17 items
+
+tests/test_a01_access_control.py .....                                   [ 29%]
+tests/test_a02_crypto.py ....                                            [ 52%]
+tests/test_a03_injection.py ...                                          [ 70%]
+tests/test_a08_deserialization.py .....                                  [100%]
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.12-final-0 _______________
+
+Name                         Stmts   Miss  Cover
+------------------------------------------------
+src/a01_access_control.py       14      0   100%
+src/a02_crypto.py                4      0   100%
+src/a03_injection.py             4      0   100%
+src/a08_deserialization.py       8      0   100%
+------------------------------------------------
+TOTAL                           30      0   100%
+Coverage HTML written to dir htmlcov
+============================== 17 passed in 0.20s ==============================
