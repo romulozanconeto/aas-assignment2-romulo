@@ -84,6 +84,6 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ## Author
 
-Romulo Angelo Zanco Neto
-romulozanconeto@gmail.com
-DEI - Department of Informatics Engineering – FCTUC, University of Coimbra
+Romulo Angelo Zanco Neto<br />
+romulozanconeto@gmail.com<br />
+DEI - Department of Informatics Engineering – FCTUC, University of Coimbra<br />
