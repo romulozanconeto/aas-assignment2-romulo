@@ -44,17 +44,22 @@ aas-assignment2-romulo/<br />
 
 Install dependencies inside a virtual environment:
 
+```bash
 python3 -m venv venv
+```
+```bash
 source venv/bin/activate        # Linux/macOS
-# or venv\Scripts\activate     # Windows
+```
+```bash
 pip install -r requirements.txt
+```
 
 ## Running the tests
 
 Execute the test suite with coverage measurement:
-
+```bash
 pytest tests/ --cov=src --cov-report=term --cov-report=html
-
+```
 - The terminal will show a summary of passed/failed tests and line coverage.
 - An interactive HTML report is created in the htmlcov/ directory.
 
@@ -79,6 +84,6 @@ This project is licensed under the MIT License – see the LICENSE file for deta
 
 ## Author
 
-Rômulo Angelo Zanco Neto
+Romulo Angelo Zanco Neto
 romulozanconeto@gmail.com
 DEI - Department of Informatics Engineering – FCTUC, University of Coimbra
