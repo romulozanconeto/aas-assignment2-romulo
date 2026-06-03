@@ -6,26 +6,24 @@ The work applies black-box and white-box dynamic testing techniques (equivalence
 
 ## Repository structure
 
-aas-assignment2-romulo/
-├── src/                      # Vulnerable source code
-│   ├── a01_access_control.py
-│   ├── a02_crypto.py
-│   ├── a03_injection.py
-│   └── a08_deserialization.py
-├── tests/                    # Unit tests (pytest)
-│   ├── conftest.py
-│   ├── test_a01_access_control.py
-│   ├── test_a02_crypto.py
-│   ├── test_a03_injection.py
-│   └── test_a08_deserialization.py
-├── logs/                     # Execution log files
-│   └── test_execution.log
-├── htmlcov/                  # Coverage report (generated automatically)
-├── requirements.txt          # Python dependencies
-├── run_tests.sh              # Test runner for Linux/macOS
-├── run_tests.bat             # Test runner for Windows
-├── README.md                 # This file
-└── LICENSE                   # MIT license
+aas-assignment2-romulo/<br />
+├── src/                      # Vulnerable source code<br />
+│   ├── a01_access_control.py<br />
+│   ├── a02_crypto.py<br />
+│   ├── a03_injection.py<br />
+│   └── a08_deserialization.py<br />
+├── tests/                    # Unit tests (pytest)<br />
+│   ├── conftest.py<br />
+│   ├── test_a01_access_control.py<br />
+│   ├── test_a02_crypto.py<br />
+│   ├── test_a03_injection.py<br />
+│   └── test_a08_deserialization.py<br />
+├── logs/                     # Execution log files<br />
+│   └── test_execution.log<br />
+├── htmlcov/                  # Coverage report (generated automatically)<br />
+├── requirements.txt          # Python dependencies<br />
+├── README.md                 # This file<br />
+└── LICENSE                   # MIT license<br />
 
 ## Functions under test
 
@@ -59,11 +57,6 @@ pytest tests/ --cov=src --cov-report=term --cov-report=html
 
 - The terminal will show a summary of passed/failed tests and line coverage.
 - An interactive HTML report is created in the htmlcov/ directory.
-
-For convenience, use the provided scripts:
-
-- ./run_tests.sh (Linux/macOS)
-- run_tests.bat (Windows)
 
 ## Test results
 
